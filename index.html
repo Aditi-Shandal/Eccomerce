@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="#">Marketta</a></div>
+        <div class="menu">
+            <a href="#">
+                <ion-icon name="close" class="close"></ion-icon>
+            </a>
+            <ul>
+                <li><a href="index.html" class="under">HOME</a></li>
+                <li><a href="about.html" class="under">ABOUT US</a></li>
+                <li><a href="index.html" class="under">CONTACT US</a></li>
+                <li><a href="cart.html" class="under">CART</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search products" id="search-input">
+            <ion-icon class="search-icon" name="search"></ion-icon>
+        </div>
+        
+        <div class="heading">
+            <ul>
+                <li><a href="index.html" class="under">HOME</a></li>
+                <li><a href="about.html" class="under">ABOUT US</a></li>
+                <li><a href="contact.html" class="under">CONTACT US</a></li>
+                <li><a href="cart.html" class="under">CART</a></li>
+            </ul>
+        </div>
+        <div class="heading1">
+            <ion-icon name="menu" class="ham"></ion-icon>
+        </div>
+    </header>
+
+    <section>
+        <div class="section">
+            <div class="section1">
+                <div class="img-slider">
+                    <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg" alt="" class="img">
+                    <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg" alt="" class="img">
+                    <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg" alt="" class="img">
+                    <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg" alt="" class="img">
+                    <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="" class="img">
+                </div>
+            </div>
+            <div class="section2">
+                <div class="container">
+                    <div class="items">
+                        <div class="img"><img src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg" alt=""></div>
+                        <div class="name">SHOES</div>
+                        <div class="price">$5</div>
+                        <div class="info">Shoes</div>
+                        <button class="add-to-cart" data-product="SHOES" data-price="5">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg" alt=""></div>
+                        <div class="name">MEN's T-SHIRT</div>
+                        <div class="price">$6.34</div>
+                        <div class="info">Blue t-shirt</div>
+                        <button class="add-to-cart" data-product="MEN's T-SHIRT" data-price="6.34">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://www.montecarlo.in/cdn/shop/products/1239804DS-2-36_5.jpg?v=1702019323" alt=""></div>
+                        <div class="name">WOMEN'S DRESS</div>
+                        <div class="price">$12.99</div>
+                        <div class="info">Elegant dress for any occasion.</div>
+                        <button class="add-to-cart" data-product="WOMEN'S DRESS" data-price="12.99">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJpajCCofSX2uTquQE8-KDIqk_W5eo_1bl3Q&s" alt=""></div>
+                        <div class="name">SUNGLASSES</div>
+                        <div class="price">$8.50</div>
+                        <div class="info">Stylish sunglasses for sunny days.</div>
+                        <button class="add-to-cart" data-product="SUNGLASSES" data-price="8.50">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/hand-messenger-bag/f/r/a/ext-hb-178-11-2-hb-178-handbag-exotic-8-5-original-imagtf3ap8uy9ekp.jpeg?q=90&crop=true" alt=""></div>
+                        <div class="name">WOMEN'S HANDBAG</div>
+                        <div class="price">$25.00</div>
+                        <div class="info">Fashionable handbag for every day.</div>
+                        <button class="add-to-cart" data-product="WOMEN'S HANDBAG" data-price="25.00">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://devotedstore.com/cdn/shop/files/21.png?v=1711236966" alt=""></div>
+                        <div class="name">MEN'S JACKET</div>
+                        <div class="price">$40.00</div>
+                        <div class="info">Warm and stylish jacket.</div>
+                        <button class="add-to-cart" data-product="MEN'S JACKET" data-price="40.00">Add to Cart</button>
+                    </div>
+                    <div class="items">
+                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGY7fkRTM0pIqVYA5qygvDSJbshjntX0dcug&s" alt=""></div>
+                        <div class="name">SMARTWATCH</div>
+                        <div class="price">$75.00</div>
+                        <div class="info">Advanced smartwatch with multiple features.</div>
+                        <button class="add-to-cart" data-product="SMARTWATCH" data-price="75.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer0">
+            <h1>ShoPperZ</h1>
+        </div>
+        <div class="footer1">
+            Connect with us at
+            <div class="social-media">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell your Products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Business</div>
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="get-help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">Copyright © <h4>ShoPperZ</h4> 2021-2028</div>
+    </footer>
+
+    <div id="notification" style="display: none; position: fixed; bottom: 10px; right: 10px; background: #4CAF50; color: white; padding: 10px; border-radius: 5px;">Item added to cart!</div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
